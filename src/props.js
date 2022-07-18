@@ -24,5 +24,5 @@ export default {
   exposure: propTypes.number,
   shadowIntensity: propTypes.number,
   shadowSoftness: propTypes.number,
-  arButtonText: propTypes.string,
+  buttonText: propTypes.string,
 }

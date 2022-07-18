@@ -37,12 +37,12 @@ const ModelViewer = (props) => {
       >
         <button className={classes.arButton} slot={'ar-button'}>
           <img
-            src={props.arLogo ? props.arLogo : logo}
+            src={props.buttonLogo ? props.buttonLogo : logo}
             alt={'augmented reality'}
             className={classes.image}
           />
             <div className={classes.text}>
-              {props.arButtonText}
+              {props.buttonText}
             </div>
         </button>
       </model-viewer>

@@ -1,6 +1,7 @@
 <br />
 
 # React AR Model Viewer Component
+
 ---
 
 #### &nbsp; React AR Model Viewer Component based on @google/model-viewer
@@ -9,23 +10,27 @@ Offical documentation <br/>
 https://modelviewer.dev/
 
 ## &nbsp; Getting Started
+
 ---
 
-```npm install react-model-viewer```\
+```npm install react-ar-viewer```\
 \
-```yarn add react-model-viewer ```
+```yarn add react-ar-viewer ```
 ---
 
 ### &nbsp; &nbsp; Props
 
-&nbsp; ``` width : String ```\
+&nbsp; ``` width : String ``` (100vw)\
 &nbsp; Css property
 100% , 50vh, 20rem  etc.
 
-&nbsp; ``` height : String ```\
+&nbsp; ``` height : String ``` (100vh)\
 &nbsp; Css property
 
-&nbsp; ```arButtonText: String```\
+&nbsp; ``` buttonImage : Image ```\
+&nbsp; AR Button Image
+
+&nbsp; ```buttonText: String```\
 &nbsp; Set ar button text. Default value is 'View'
 
 &nbsp; ```src : String ```\

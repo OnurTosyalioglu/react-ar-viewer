@@ -1,4 +1,6 @@
 export default {
+  width: '100vw',
+  height: '100vh',
   src: '',
   iosSrc: '',
   poster: '',
@@ -22,5 +24,5 @@ export default {
   exposure: 1,
   shadowIntensity: 0,
   shadowSoftness: 1,
-  arButtonText: 'View'
+  buttonText: 'View'
 }
