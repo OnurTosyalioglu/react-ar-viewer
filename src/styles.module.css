@@ -1,0 +1,23 @@
+.arButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25rem;
+  border: 2px solid #a9a9a9;
+  border-radius: 25px;
+  color: #383838;
+}
+
+.image {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.text {
+  margin-right: 0.5rem;
+}

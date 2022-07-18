@@ -1,0 +1,28 @@
+import propTypes from 'prop-types'
+
+export default {
+  src: propTypes.string,
+  iosSrc: propTypes.string,
+  poster: propTypes.string,
+  alt: propTypes.string,
+  loading: propTypes.string,
+  reveal: propTypes.string,
+  modelCacheSize: propTypes.number,
+  powerPreference: propTypes.string,
+  ar: propTypes.bool,
+  arModes: propTypes.string,
+  arScale: propTypes.string,
+  arPlacement: propTypes.string,
+  autoPlay: propTypes.bool,
+  autoRotate: propTypes.bool,
+  autoRotateDelay: propTypes.number,
+  interactionPromptStyle: propTypes.string,
+  interactionPromptThresold: propTypes.number,
+  cameraControls: propTypes.bool,
+  cameraOrbit: propTypes.string,
+  cameraTarget: propTypes.string,
+  exposure: propTypes.number,
+  shadowIntensity: propTypes.number,
+  shadowSoftness: propTypes.number,
+  arButtonText: propTypes.string,
+}
