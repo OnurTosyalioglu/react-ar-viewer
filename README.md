@@ -4,10 +4,10 @@
 
 ---
 
-#### &nbsp; React AR Model Viewer Component based on @google/model-viewer
+#### &nbsp;&nbsp; React AR Model Viewer Component based on @google/model-viewer
 
 Offical documentation <br/>
-https://modelviewer.dev/
+[Model Viewer](https://modelviewer.dev/)
 
 ## &nbsp; Getting Started
 
@@ -33,13 +33,13 @@ https://modelviewer.dev/
 &nbsp; ```buttonText: String```\
 &nbsp; Set ar button text. Default value is 'View'
 
-&nbsp; ```src : String ```\
+&nbsp; ```src : String(URL) ```\
 &nbsp; The URL to the 3D model. Only glTF/GLB models are supported.
 
-&nbsp; ```iosSrc: String```\
+&nbsp; ```iosSrc: String(URL)```\
 &nbsp; IOS source file, usdz extension
 
-&nbsp; ```poster: String```\
+&nbsp; ```poster: String(URL)```\
 &nbsp; Displays an image instead of the model, useful for showing the user something before a model is loaded and ready to render.
 
 &nbsp; ```alt: String```\
@@ -99,20 +99,24 @@ Controls the opacity of the shadow. Set to 0 to turn off the shadow entirely.
 Controls the blurriness of the shadow. Set to 0 for hard shadows. Softness should not be changed every frame as it incurs a performance cost. Softer shadows render faster.
 
 ### &nbsp; Example Usage
+&nbsp;
+<span style="color:red">AR button only show on mobile devices !!</span>
+
 ```
 const Component = () => {
     return <ModelViewer
-        arButtonText={'View in your space'}
+        buttonImage={'https://picsum.photos/200/200'}
+        buttonText={'View in your space'}
         width={'100vw'}
         height={'100vh'}
-        src={''}
-        iosSrc={''}
-        poster={''}
+        src={'https://model.glb'}
+        iosSrc={'https://model.usdz'}
+        poster={'https://picsum.photos/200/200'}
         alt={'Sample usage on component'}
         cameraControls={true}
         ar={true}
-        cameraTarget={''}
-        cameraOrbit={''}
+        cameraTarget={'0m 0m 0m'}
+        cameraOrbit={'0 deg 0deg 0%'}
         exposure={1}
         shadowSoftness={0}
         autoPlay={true}
@@ -121,8 +125,12 @@ const Component = () => {
 ```
 <br />
 
+&nbsp; [Example Usage](https://onurtosyalioglu.github.io/react-ar-viewer/)
+
+&nbsp; Email: onurtosyalioglu@gmail.com
+
+
 ## &nbsp; &nbsp; License
 &nbsp; MIT © [OnurTosyalioglu](https://github.com/OnurTosyalioglu)
 
 <br />
-

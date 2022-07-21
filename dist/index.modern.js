@@ -1127,10 +1127,12 @@ var props = {
   exposure: propTypes.number,
   shadowIntensity: propTypes.number,
   shadowSoftness: propTypes.number,
-  arButtonText: propTypes.string
+  buttonText: propTypes.string
 };
 
 var defaultProps = {
+  width: '100vw',
+  height: '100vh',
   src: '',
   iosSrc: '',
   poster: '',
@@ -1154,7 +1156,7 @@ var defaultProps = {
   exposure: 1,
   shadowIntensity: 0,
   shadowSoftness: 1,
-  arButtonText: 'View'
+  buttonText: 'View'
 };
 
 var ModelViewer = function ModelViewer(props) {
@@ -1190,12 +1192,12 @@ var ModelViewer = function ModelViewer(props) {
     className: classes.arButton,
     slot: 'ar-button'
   }, /*#__PURE__*/React.createElement("img", {
-    src: props.arLogo ? props.arLogo : logo,
+    src: props.buttonLogo ? props.buttonLogo : logo,
     alt: 'augmented reality',
     className: classes.image
   }), /*#__PURE__*/React.createElement("div", {
     className: classes.text
-  }, props.arButtonText))));
+  }, props.buttonText))));
 };
 
 ModelViewer.propTypes = props;
