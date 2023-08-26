@@ -11,6 +11,22 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "ar",
+    "augmented-reality",
+    "ar-viewer",
+    "react",
+    "3d",
+    "web-viewer",
+    "webar",
+    "webvr",
+    "arkit",
+    "arcore",
+    "glb",
+    "gltf",
+    "webaronarcore",
+    "webaronarkit"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
